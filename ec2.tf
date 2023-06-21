@@ -1,6 +1,6 @@
 resource "aws_instance" "web" { 
-  ami           = "ami-02eb7a4783e7e9317"
-  instance_type = "t2.micro" 
+  ami           = "ami-0f5ee92e2d63afc18"
+  instance_type = "t2.medium" 
 
   tags = {
     Name = "terraform-ec2"
